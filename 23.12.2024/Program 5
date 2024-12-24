@@ -1,0 +1,20 @@
+import java.util.Scanner;
+
+public class FibonacciInRange {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter the range (start and end): ");
+        int start = scanner.nextInt();
+        int end = scanner.nextInt();
+
+        int t1 = 0, t2 = 1;
+        while (t1 <= end) {
+            if (t1 >= start) {
+                System.out.print(t1 + " ");
+            }
+            int next = t1 + t2;
+            t1 = t2;
+            t2 = next;
+        }
+    }
+}
