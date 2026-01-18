@@ -1,0 +1,10 @@
+student = {
+    "Tamil": 80,
+    "English": 75,
+    "Maths": 90
+}
+
+total = sum(student.values())
+
+print("Total Marks:", total)
+print("Average:", total/3)
