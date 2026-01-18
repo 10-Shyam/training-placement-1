@@ -1,0 +1,9 @@
+list = [10, 25, 5, 40, 15]
+
+max = list[0]
+
+for i in list:
+    if i > max:
+        max = i
+
+print("Largest =", max)
