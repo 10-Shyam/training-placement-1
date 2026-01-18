@@ -1,0 +1,6 @@
+class Student:
+    def display(self):
+        print("This is Python OOPS")
+
+s = Student()
+s.display()
